@@ -1,29 +1,35 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Intro to Python Virtual Environments</span>
   <span class="subhead">Setup</span>
 </h1>
 
 ## Setup
 
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
-
-Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
+Open your Terminal application and navigate to your **`~/development/lessons`** directory:
 
 ```bash
-cd ~/code/ga/lectures
+cd ~/development/lessons
 ```
 
-Make a new directory called <code class="filepath">tktk-module-name</code>, then enter this directory:
+Make a new directory called **`pipenv-test`**, then enter this directory:
 
-```bash
-mkdir tktk-module-name
-cd tktk-module-name
+```
+mkdir pipenv-test
+cd pipenv-test
 ```
 
-Open the contents of the directory in VS Code:
+## Package Installation
+
+You can install `pipenv` with Python package manager:
+
+```sh
+pip3 install pipenv
+```
+
+This will install the `pipenv` module globally, which is exactly what we want.
+
+Open the contents of the directory in VSCode:
 
 ```bash
 code .
 ```
-
-tktk Are there more lecture setup steps? Don't forget to add them here.

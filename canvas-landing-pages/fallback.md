@@ -1,27 +1,21 @@
 <!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Intro to Python Virtual Environments</span>
 </h1>
 
-tktk Add some default course navigation content here. This landing page will be used when a student's course cannot be determined, so don't include any course-specific details.
+## About
+
+In this module, you'll navigate the essential steps of setting up a Python development environment. From understanding the purpose of virtual environments to installing Pipenv globally, you'll grasp the necessary tools and files to streamline your Python development.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](../setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](../concepts/README.md)                    | -- | tktk Skills covered.                |
-| [tktk Microlesson Name](../microlesson-01/README.md) | -- | tktk Skills covered.                |
-| **Total content**                                    | -- |                                     |
-
-## Level Up content
-
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [tktk Microlesson Name](../microlesson-02/README.md) | -- | tktk Skills covered. |
-| **Total Level Up content**                           | -- |                      |
+| Lesson                            | Est. Delivery Time | Skills                                                                              |
+| --------------------------------- | :----------------: | ----------------------------------------------------------------------------------- |
+| [Setup](../setup/README.md)       |       5 min        | Set up the development environment.                                                 |
+| [Concepts](../concepts/README.md) |       25 min       | Implement a virtual environment for a project with the Python dependencies `pipenv` |
+| **Total content**                 |       30 min       |                                                                                     |
 
 ## References
 
-📖 [Reference Materials](../references/README.md)
+📖 [Reference Materials](./references/README.md)

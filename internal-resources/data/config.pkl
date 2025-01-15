@@ -12,9 +12,9 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Intro to Python Virtual Environments"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "intro-to-python-virtual-environments"
   type = "Lesson"
 }
 
@@ -26,11 +26,14 @@ courses {
       // Add microlessons here, in the order they should be delivered
       mls.setup
       mls.concepts
-      mls.microlesson01
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.microlesson02) {
-        type = "Level Up content"
-      }
+    }
+  }
+  new {
+    name = "apd"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.concepts
     }
   }
 }
