@@ -17,4 +17,4 @@ In this module, you'll navigate the essential steps of setting up a Python devel
 
 ## References
 
-📖 [Reference Materials](./references/README.md)
+📖 [Reference Materials](../references/README.md)
